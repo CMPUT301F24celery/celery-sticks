@@ -36,4 +36,8 @@
         android:id="@+id/facility_information"
         android:name="com.example.celery_sticks.ui.facilityinformation.FacilityInformationFragment"
         android:label="Facility Information" />
+    <fragment
+        android:id="@+id/imageBrowseFragment"
+        android:name="com.example.celery_sticks.ui.admin.ImageBrowseFragment"
+        android:label="Browse Images" />
 </navigation>

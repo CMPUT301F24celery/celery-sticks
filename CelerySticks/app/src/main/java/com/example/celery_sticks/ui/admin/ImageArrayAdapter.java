@@ -42,7 +42,7 @@ public class ImageArrayAdapter extends ArrayAdapter<String[]> {
         ImageView image = view.findViewById(R.id.admin_browse_image_view);
 
         type.setText(instance[0]);
-        title.setText(instance[1]);
+        title.setText(instance[1].toString());
 
         // set image to imageview here
         if (instance[3] != null) {

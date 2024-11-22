@@ -24,7 +24,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:singleLine="true"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:text="Image Type:"
             android:textColor="@color/black"
             android:textSize="20sp">
@@ -35,7 +38,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:singleLine="true"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:text="Origin:"
             android:textColor="@color/black"
             android:textSize="20sp">

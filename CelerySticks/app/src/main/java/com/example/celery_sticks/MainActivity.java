@@ -105,7 +105,11 @@ public class MainActivity extends AppCompatActivity {
             } else if (item.getItemId() == R.id.facility_information) {
                 idBundle.putString("userID", userID);
                 navController.navigate(R.id.facility_information, idBundle);
+            } else if (item.getItemId() == R.id.browse_images) {
+                idBundle.putString("userID", userID);
+                navController.navigate(R.id.imageBrowseFragment, idBundle);
             }
+
             drawer.closeDrawer(GravityCompat.START);
             return false;
         });
