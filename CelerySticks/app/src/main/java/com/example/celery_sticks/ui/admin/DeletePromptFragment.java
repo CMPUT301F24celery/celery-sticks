@@ -15,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
+
 import com.example.celery_sticks.R;
 
 public class DeletePromptFragment extends DialogFragment {
@@ -43,7 +44,7 @@ public class DeletePromptFragment extends DialogFragment {
         }
     }
     */
-     
+
 
     @NonNull
     @Override
